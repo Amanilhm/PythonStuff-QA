@@ -4,11 +4,11 @@ num_c = float(input('Please give me a number c : '))
 
 if (num_a > num_b): 
     if (num_a > num_c):
-        print(num_a)
+        print('a')
     else: 
-        print(num_c)
+        print('c')
 else:
     if num_b > num_c:
-        print(num_b)
+        print('b')
     else:
-        print(num_c)
+        print('c')
